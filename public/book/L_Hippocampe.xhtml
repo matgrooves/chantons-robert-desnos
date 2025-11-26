@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+
+<head>
+   <title>L'Hippocampe</title>
+   <link href="./Styles/styles.css" rel="stylesheet" type="text/css" />
+   <link href="./Styles/audio-player.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src="./js/player.js"></script>
+   <style>
+      :root {
+         --page-color: #1AE1D8;
+         --text-color: #DD0E17;
+         --hover-bg-color: #FFFFE0;
+         --player-bg-color: #FF960E;
+      }
+   </style>
+   <meta name="viewport" content="width=1600, height=2560" />
+</head>
+
+<body>
+   <img style="width: 100%;" alt="L'Hippocampe" src="./Images/L_Hippocampe.png" />
+
+   <table style="width: 100%;">
+      <tbody>
+         <tr style="height:150px;">
+            <td colspan="3" class="no-hover">
+               <div class="audio-cell">
+                  <audio id="song1audio" src="./audio/L_hippocampe.mp3"></audio>
+                  <div class="audio-overlay">
+                     <span class="audio-label">🎵</span>
+                     <div class="audio-controls">
+                        <button class="play-btn" onclick="toggleAudio('song1audio', this)">
+                           <span class="play-icon">▶️</span>
+                        </button>
+                        <input type="range" class="progress" min="0" max="100" value="0" step="0.1"
+                           onchange="seekAudio('song1audio', this)" />
+                        <!-- <input type="range" class="volume" min="0" max="1" step="0.01" value="1"
+                           onchange="setVolume('song1audio', this)" /> -->
+                     </div>
+                  </div>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td style="border-right: 1px solid var(--text-color)">
+               <p>
+
+
+                  Gloire ! Gloire au bel hippocampe,
+                  <br />
+                  Cheval marin, cheval de trempe,
+                  <br />
+                  Qu’aucun jockey n’a chevauché,
+                  <br />
+                  Qu’aucun cocher n’a harnaché.
+                  <br />
+                  <br />
+                  <br />
+                  Hip ! Hip ! Hip ! Pour l’hippocampe.
+                  <br />
+                  Hip ! Hip ! Hip ! Pour l’hippocampe.
+                  <br />
+                  Hip ! Hip ! Hip ! Pour l’hippocampe.
+                  <br />
+               </p>
+            </td>
+            <td>
+               <p>
+                  Gloire ! Gloire au bel hippocampe.
+                  <br />
+                  Dans une poche, sur son ventre,
+                  <br />
+                  Il porte et il couve ses œufs.
+                  <br />
+                  Là, ses petits sont bien chez eux.
+                  <br />
+                  <br />
+                  Hip ! Hip ! Hip ! Pour l’hippocampe.
+                  <br />
+                  Hip ! Hip ! Hip ! Pour l’hippocampe.
+                  <br />
+                  Hip ! Hip ! Hip ! Pour l’hippocampe.
+                  <br />
+
+               </p>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</body>
+
+</html>

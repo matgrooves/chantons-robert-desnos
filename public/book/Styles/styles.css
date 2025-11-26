@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  line-height: 2;
+  font-size: 1.5em;
+}
+
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--page-color);
+    color: #222;
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+h1.song_title {
+	font-family: Verdana, sans-serif;
+	color: var(--text-color);
+	font-weight: bold;
+}
+
+p {
+    color: var(--text-color);
+    font-weight: bold;
+	font-family: Verdana, sans-serif;
+}
+
+table {
+    width: 100%;
+    margin-top: 0em;
+    text-align: left;
+}
+th,
+td {
+    	border: 0px solid #999;
+    	padding: 1em;
+    	cursor: pointer;
+    	vertical-align: top;
+	padding-top: 0px;
+}
+
+td:hover {
+    background-color: var(--hover-bg-color);
+}
+
+.no-hover:hover {
+  background: inherit;
+  cursor: default;
+}
