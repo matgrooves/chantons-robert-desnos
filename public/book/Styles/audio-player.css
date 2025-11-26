@@ -9,7 +9,7 @@
   justify-content: center;
   padding: 18px;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 0px;
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .play-icon {
-  font-size: 108px; /* much bigger icon */
+  font-size: 72px; /* much bigger icon */
   line-height: 1;
 }
 
